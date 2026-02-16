@@ -35,10 +35,6 @@
                     "to": [{ "key_code": "escape" }]
                 },
                 {
-                    "from": { "key_code": "right_option" },
-                    "to": [{ "key_code": "escape" }]
-                },
-                {
                     "from": { "key_code": "right_command" },
                     "to": [{ "key_code": "left_shift" }]
                 }
