@@ -1,0 +1,25 @@
+{
+  "title": "Left Command + Escape → non_us_backslash (§ / ~ / < >)",
+  "rules": [
+    {
+      "description": "left_command + escape → non_us_backslash",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "escape",
+            "modifiers": {
+              "mandatory": ["left_command"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "non_us_backslash"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
